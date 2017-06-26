@@ -1,0 +1,20 @@
+.animation {
+  &-simple-fade-enter {
+    opacity: 0;
+  }
+  &-fade-enter-active {
+    opacity: 1;
+
+    transition: .2s ease-in all;
+  }
+
+  &-simple-fade-leave {
+    opacity: 1;
+  }
+
+  &-simple-fade-leave-active {
+    opacity: 0;
+
+    transition: .2s ease-out all;
+  }
+}

@@ -1,0 +1,24 @@
+.weather-display {
+  &__card {
+    display: flex;
+    flex-direction: column;
+
+    width: 18%;
+  }
+}
+
+@media #{$tablet-width} {
+  .weather-display {
+    &__card {
+      width: 30%;
+    }
+  }
+}
+
+@media #{$mobile-width} {
+  .weather-display {
+    &__card {
+      width: 48%;
+    }
+  }
+}
